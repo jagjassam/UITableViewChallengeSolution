@@ -14,6 +14,7 @@
 		F62CDB6B1A22FAE000DB49A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62CDB6A1A22FAE000DB49A7 /* Images.xcassets */; };
 		F62CDB6E1A22FAE000DB49A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62CDB6C1A22FAE000DB49A7 /* LaunchScreen.xib */; };
 		F62CDB7A1A22FAE000DB49A7 /* UITableViewChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F62CDB791A22FAE000DB49A7 /* UITableViewChallengeSolutionTests.m */; };
+		F62CDB851A22FDE100DB49A7 /* JCTableViewCont.m in Sources */ = {isa = PBXBuildFile; fileRef = F62CDB841A22FDE100DB49A7 /* JCTableViewCont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F62CDB731A22FAE000DB49A7 /* UITableViewChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62CDB781A22FAE000DB49A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62CDB791A22FAE000DB49A7 /* UITableViewChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewChallengeSolutionTests.m; sourceTree = "<group>"; };
+		F62CDB831A22FDE100DB49A7 /* JCTableViewCont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTableViewCont.h; sourceTree = "<group>"; };
+		F62CDB841A22FDE100DB49A7 /* JCTableViewCont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTableViewCont.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F62CDB641A22FAE000DB49A7 /* ViewController.h */,
 				F62CDB651A22FAE000DB49A7 /* ViewController.m */,
 				F62CDB671A22FAE000DB49A7 /* Main.storyboard */,
+				F62CDB831A22FDE100DB49A7 /* JCTableViewCont.h */,
+				F62CDB841A22FDE100DB49A7 /* JCTableViewCont.m */,
 				F62CDB6A1A22FAE000DB49A7 /* Images.xcassets */,
 				F62CDB6C1A22FAE000DB49A7 /* LaunchScreen.xib */,
 				F62CDB5D1A22FAE000DB49A7 /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62CDB851A22FDE100DB49A7 /* JCTableViewCont.m in Sources */,
 				F62CDB661A22FAE000DB49A7 /* ViewController.m in Sources */,
 				F62CDB631A22FAE000DB49A7 /* AppDelegate.m in Sources */,
 				F62CDB601A22FAE000DB49A7 /* main.m in Sources */,
